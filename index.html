@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SANDYLON Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+</head>
+<body class="bg-cover bg-center bg-no-repeat" style="background-image: url('image.jpg');">
+    <!-- Navbar -->
+    <nav class="bg-gray-800 p-4 fixed w-full z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-white">SANDYLON</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="text-white hover:text-gray-300">Home</a></li>
+                <li><a href="#products" class="text-white hover:text-gray-300">Products</a></li>
+                <li><a href="#about" class="text-white hover:text-gray-300">About</a></li>
+                <li><a href="#contact" class="text-white hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-cover bg-center bg-no-repeat h-screen flex items-center justify-center" style="background-image: url('bg.jpg');">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold text-white mb-4">Welcome to SANDYLON</h1>
+            <p class="text-lg text-white">Transforming the future with Artificial Intelligence.</p>
+            <button class="bg-white text-blue-500 font-bold px-6 py-3 rounded mt-8 hover:bg-blue-600 hover:text-white">Get Started</button>
+        </div>
+    </header>
+
+    <!-- Products Section -->
+    <section id="products" class="text-white-py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Our Products</h2>
+            <div class="flex justify-center">
+                <div class="w-3/4">
+                    <!-- Sample Product Cards -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <!-- Product Card 1 -->
+                        <div class="bg-white p-10 rounded shadow text-center">
+                            <h3 class="text-xl text-black font-bold mb-2">Image Recognition and Object Detection API:</h3>
+                            <p class="text-gray-600">Create an API that allows developers to integrate image recognition and object detection capabilities into their applications. This API can identify objects, faces, or specific patterns within images and can be used in various industries, such as e-commerce for product tagging, security systems for surveillance, and healthcare for medical image analysis.</p>
+                        </div>
+
+                        <!-- Product Card 2 -->
+                        <div class="bg-white p-10 rounded shadow text-center">
+                            <h3 class="text-xl font-bold mb-2">Natural Language Processing (NLP) API</h3>
+                            <p class="text-gray-600">Develop an NLP API that enables developers to perform tasks like sentiment analysis, text classification, language translation, and named entity recognition. This API can be valuable for companies looking to analyze customer feedback, automate customer support, or expand their services to different language markets.</p>
+                        
+                        </div>
+
+                        <!-- Product Card 3 -->
+                        <div class="bg-white p-10 rounded shadow text-center">
+                            <h3 class="text-xl font-bold mb-2">Anomaly Detection API</h3>
+                            <p class="text-gray-600">Build an API that can detect anomalies or outliers in time-series data or tabular datasets. This API can be useful for applications in finance for fraud detection, manufacturing for predictive maintenance, and network monitoring for identifying unusual behaviors</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 h-screen">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8 text-white">About Us</h2>
+            <div class="flex justify-center">
+                <div class="w-3/4">
+                    <p class="text-xl text-white">Welcome to "SANDYLON," a cutting-edge Machine Learning APIs startup poised to revolutionize the world of artificial intelligence. Our vision is to empower developers and businesses with state-of-the-art machine learning capabilities, making AI accessible and impactful for everyone. At SANDYLON, we've assembled a team of brilliant minds, data scientists, and engineers to craft a comprehensive suite of APIs covering a diverse range of applications, from advanced image recognition and natural language processing to powerful predictive analytics and anomaly detection. Committed to excellence, privacy, and ethical AI practices, we strive to deliver APIs that offer unparalleled performance, accuracy, and scalability, ensuring a seamless integration experience for our users. Join us on this transformative journey, where we harness the power of AI to shape a brighter, more intelligent future for all..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-800 text-white py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+            <div class="flex justify-center">
+                <div class="w-1/2">
+                    <form>
+                        <div class="mb-4">
+                            <label for="name" class="block text-lg font-medium">Name</label>
+                            <input type="text" id="name" class="form-input mt-1 w-full" placeholder="Dalmi">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-lg font-medium">Email</label>
+                            <input type="email" id="email" class="form-input mt-1 w-full" placeholder="dalmi@gmail.com">
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-lg font-medium">Message</label>
+                            <textarea id="message" class="form-textarea mt-1 w-full" rows="4" placeholder="Your message..."></textarea>
+                        </div>
+                        <a href="mailto:info.anandachaudhary@gmail.com" type="submit" class="bg-blue-500 text-white font-bold py-3 px-6 rounded hover:bg-blue-600">Send Message</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-4">
+        <div class="container mx-auto px-4 flex justify-center">
+            <p>&copy; 2023 SANDYLON . All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
